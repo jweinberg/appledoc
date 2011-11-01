@@ -210,6 +210,7 @@
 		73FC741111FE1FDF00AAD0B9 /* GBMethodsProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FC741011FE1FDF00AAD0B9 /* GBMethodsProvider.m */; };
 		73FC741D11FE215E00AAD0B9 /* GBMethodData.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FC741C11FE215E00AAD0B9 /* GBMethodData.m */; };
 		73FC742D11FE274300AAD0B9 /* GBMethodArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FC742C11FE274300AAD0B9 /* GBMethodArgument.m */; };
+		82FF916A14608A56005C29B4 /* GBMarkdownOutputGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FF916914608A56005C29B4 /* GBMarkdownOutputGenerator.m */; };
 		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -489,6 +490,8 @@
 		73FC742B11FE274300AAD0B9 /* GBMethodArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMethodArgument.h; sourceTree = "<group>"; };
 		73FC742C11FE274300AAD0B9 /* GBMethodArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMethodArgument.m; sourceTree = "<group>"; };
 		73FC743511FE2CEB00AAD0B9 /* GBMethodDataTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMethodDataTesting.m; sourceTree = "<group>"; };
+		82FF916814608A56005C29B4 /* GBMarkdownOutputGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMarkdownOutputGenerator.h; sourceTree = "<group>"; };
+		82FF916914608A56005C29B4 /* GBMarkdownOutputGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMarkdownOutputGenerator.m; sourceTree = "<group>"; };
 		8DD76FA10486AA7600D96B5E /* appledoc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = appledoc; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -711,6 +714,8 @@
 				73734617129668340046D6B8 /* GBDictionaryTemplateLoader.m */,
 				735B2385130418A000704844 /* GBTemplateFilesHandler.h */,
 				735B2386130418A000704844 /* GBTemplateFilesHandler.m */,
+				82FF916814608A56005C29B4 /* GBMarkdownOutputGenerator.h */,
+				82FF916914608A56005C29B4 /* GBMarkdownOutputGenerator.m */,
 			);
 			path = Generating;
 			sourceTree = "<group>";
@@ -1334,6 +1339,7 @@
 				73AF4ECC130938F3001152DB /* GBCommentComponentsList.m in Sources */,
 				73FAC0F9130BCB6F00F22475 /* GBCommentArgument.m in Sources */,
 				73C4C8611377DFF70024FA77 /* GBExitCodes.m in Sources */,
+				82FF916A14608A56005C29B4 /* GBMarkdownOutputGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

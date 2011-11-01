@@ -174,6 +174,15 @@ extern id kGBCustomDocumentIndexDescKey;
 /// @name Behavior handling
 ///---------------------------------------------------------------------------------------
 
+/** Indicates whether Markdown files should be generated or not.
+ 
+ If `YES`, Markdown files are generated in `outputPath` from parsed and processed data. If `NO`, input files are parsed and processed, but nothing is generated.
+ 
+ @see createDocSet
+ */
+
+@property (assign) BOOL createMarkdown;
+
 /** Indicates whether HTML files should be generated or not.
  
  If `YES`, HTML files are generated in `outputPath` from parsed and processed data. If `NO`, input files are parsed and processed, but nothing is generated.

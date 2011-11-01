@@ -74,6 +74,7 @@ NSString *kGBCustomDocumentIndexDescKey = @"index-description";
 		self.ignoredPaths = [NSMutableSet set];
         self.excludeOutputPaths = [NSMutableSet set];
 		
+        self.createMarkdown = NO;
 		self.createHTML = YES;
 		self.createDocSet = YES;
 		self.installDocSet = YES;
@@ -605,6 +606,7 @@ NSString *kGBCustomDocumentIndexDescKey = @"index-description";
 @synthesize embedCrossReferencesWhenProcessingMarkdown;
 @synthesize embedAppledocBoldMarkersWhenProcessingMarkdown;
 
+@synthesize createMarkdown;
 @synthesize createHTML;
 @synthesize createDocSet;
 @synthesize installDocSet;
